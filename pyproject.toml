@@ -12,4 +12,5 @@ dependencies = [
 [tool.uv.workspace]
 members = [
     "fastapi-lab",
+    "wk11/pygameapp",
 ]
