@@ -1,9 +1,9 @@
 import pygame
 pygame.init()
-screen = pygame.display.set_mode((400,300))
-pygame.display.set_caption("Pygame 01")
+screen = pygame.display.set_mode((400, 300))
 running = True
-while running:
-    pygame.time.delay(100)
-    pygame.display.update()
-    
+while running: # Game Loop
+    pygame.time.delay(100) # Delay to control frame rate
+    pygame.display.update() # Update the display
+
+
